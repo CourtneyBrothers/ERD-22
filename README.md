@@ -44,3 +44,18 @@ Build an ERD to define the properties of the following resources and the relatio
 #### Customers
 * A customer's first and last name should be recorded separately
 * The date that a customer created an account must be tracked
+
+## Usage
+
+to run 
+```
+npm install sqlite3 
+```
+to instantiate the database(db) connection
+
+```
+npm install --save faker body-parser
+```
+to generate data for the databaes (db)
+
+After installing the sqlite3 module, you are ready to connect to a SQLite database from a Node.js application.
